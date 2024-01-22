@@ -86,10 +86,9 @@
     overflow-x: hidden;
     white-space: nowrap;
     text-overflow: clip;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:start;
     
 
 }
@@ -101,7 +100,6 @@
     width: 100%;
     height: 5%;
     font-family: Open Sans;
-    text-align: center;
     box-sizing: border-box;
     padding-left: 5%;
     padding-top: 5%;
