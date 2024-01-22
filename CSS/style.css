@@ -122,3 +122,18 @@ footer p{
 .drop-down{
     width: 3%;
 }
+.center-section{
+    border: 1px solid red;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-gpt{
+    height: 30%;
+}
+.center-section p{
+    font-size: 140%;
+}
