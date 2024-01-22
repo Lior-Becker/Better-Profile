@@ -17,8 +17,18 @@
     align-items: center;
     max-height: 100vh;
 }
+.section-right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    width: 80vw;
+    height: 100vh;
+    font-family: Open Sans;
+}
 
-.header{
+.left-header{
     width: 80%;
     height:fit-content;
     display: flex;
@@ -27,12 +37,12 @@
     border-radius: 15px;
 
 }
-.header p{
+.left-header p{
     text-align: center;
     font-family: Open Sans;
 }
 
-.header:hover{
+.left-header:hover{
     background-color: #202123;
 }
 
@@ -99,4 +109,16 @@ footer p{
 }
 .section-left p:hover{
     background-color: #343540;
+}
+
+.right-header{
+    width: 95%;
+    display: flex;
+}
+
+.gray-text{
+    color: gray;
+}
+.drop-down{
+    width: 3%;
 }
