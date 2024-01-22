@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.background{
+    background-color: #343540;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.left-bar{
+    background-color: black;
+    color: white;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    font-size: 1.5vw;
+}
+
+.header{
+    width: 80%;
+    height:fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.header p{
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.header:hover{
+    background-color: #202123;
+}
+
+.open-ai-logo{
+    width: 1.5vw;
+    margin-left: 5%;
+}
+.new-chat-logo{
+    height: 2vw;
+    float: right;
+}
+footer{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: auto;
+    box-sizing: border-box;
+
+}
+
+.default-user{
+    width:2.5vw;
+}
+footer:hover{
+    background-color: #202123;
+}
+
+footer p{
+    font-family: Open Sans;
+}
+.section-left{
+    border: 1px solid white;
+    text-align: left;
+    width: 80%;
+    height:90%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    max-height: 90%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+
+}
+.section-left::-webkit-scrollbar{
+    width: 0;
+}
+.section-left li{
+    min-width: 80%;
+    margin-left: 10%;
+    font-family: Open Sans;
+    list-style-type: none;
+}
+.section-left li:hover{
+    border-radius: 5%;
+    background-color: #202123;
+}
