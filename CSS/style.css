@@ -131,13 +131,14 @@
 }
 .center-gpt{
     height: 30%;
+    width: 30%;
 }
 .center-section p{
-    font-size: 140%;
+    font-size: 2vw;
 }
 
 .right-footer{
-    width: 70%;
+    width: 70vw;
     height:10%;
     border: 1px solid #727b7c;
     border-radius: 20px;;
